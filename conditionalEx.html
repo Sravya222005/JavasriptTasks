@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #f4f6f8;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            width: 500px;
+            margin: 30px auto;
+        }
+        .box {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #d0d0d0;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px #ddd;
+        }
+        h3 {
+            margin-top: 0;
+            color: #536d8a;
+        }
+        input {
+            width: 200px;
+            height: 32px;
+            padding-left: 8px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+        button {
+            margin-left: 8px;
+            padding: 8px 15px;
+            border: 1px solid #6c8ebf;
+            border-radius: 5px;
+            background-color: #eef3fa;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #dce7f5;
+        }
+        p {
+            font-weight: bold;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conditional Statements</h1>
+    <div class="container">
+        <div class="box">
+            <h3>1. if Statement - Positive Number</h3>
+            <input type="text" id="num1" placeholder="Enter number">
+            <button onclick="checkPositive()">Check</button>
+            <p id="result1"></p>
+        </div>
+        <div class="box">
+            <h3>2. if-else - Even or Odd</h3>
+            <input type="text" id="num2" placeholder="Enter number">
+            <button onclick="checkEvenOdd()">Check</button>
+            <p id="result2"></p>
+        </div>
+        <div class="box">
+            <h3>3. else-if - Grade</h3>
+            <input type="text" id="marks" placeholder="Enter marks">
+            <button onclick="checkGrade()">Check</button>
+            <p id="result3"></p>
+        </div>
+        <div class="box">
+            <h3>4. switch - Day</h3>
+            <input type="text" id="day" placeholder="Enter day number">
+            <button onclick="checkDay()">Check</button>
+            <p id="result4"></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="conditonal.js"></script>
+</body>
+</html>
